@@ -33,7 +33,7 @@ public class Main {
             em.persist(client1);
             em.persist(client2);
 
-            //  Création d'un compte Courant (au lieu de Compte)
+            //  Création d'un compte Courant
             Courant compte1 = new Courant();
             compte1.setNumero("CPT12345");
             compte1.setSolde(10000);
